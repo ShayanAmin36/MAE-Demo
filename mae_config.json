@@ -1,0 +1,17 @@
+{
+  "img_size": 224,
+  "patch_size": 16,
+  "mask_ratio": 0.75,
+  "enc_dim": 768,
+  "enc_depth": 12,
+  "enc_heads": 12,
+  "dec_dim": 384,
+  "dec_depth": 12,
+  "dec_heads": 6,
+  "epochs": 50,
+  "batch_size": 64,
+  "lr": 0.00015,
+  "weight_decay": 0.05,
+  "warmup_epochs": 5,
+  "grad_clip": 1.0
+}
